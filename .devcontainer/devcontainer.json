@@ -1,0 +1,14 @@
+{
+  "name": "AWS KMS Envelope Encryption Example",
+  "dockerFile": "Dockerfile",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "hashicorp.terraform",
+        "ms-python.black-formatter",
+        "ms-python.python",
+        "streetsidesoftware.code-spell-checker"
+      ]
+    }
+  }
+}
