@@ -1,4 +1,4 @@
-# syntax=docker.io/docker/dockerfile:1.9
+# syntax=docker.io/docker/dockerfile:1.14
 
 # see https://github.com/aws/aws-cli/tags
 # see https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html#cliv2-linux-install
@@ -7,10 +7,10 @@ ARG AWS_CLI_VERSION='2.17.26'
 
 # see https://github.com/hashicorp/terraform/releases
 # renovate: datasource=github-releases depName=hashicorp/terraform
-ARG TERRAFORM_VERSION='1.9.4'
+ARG TERRAFORM_VERSION='1.11.2'
 
 # see https://github.com/devcontainers/images/tree/main/src/base-debian/history
-FROM mcr.microsoft.com/devcontainers/base:1.0.15-bookworm
+FROM mcr.microsoft.com/devcontainers/base:1.0.20-bookworm
 
 RUN <<'EOF'
 #!/usr/bin/bash
