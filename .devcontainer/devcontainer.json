@@ -7,8 +7,14 @@
         "hashicorp.terraform",
         "ms-python.black-formatter",
         "ms-python.python",
+        "ms-python.python-pylance",
         "streetsidesoftware.code-spell-checker"
-      ]
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": "/opt/venv/bin/python",
+        "python.terminal.activateEnvironment": true,
+        "python.languageServer": "Pylance"
+      }
     }
   }
 }
